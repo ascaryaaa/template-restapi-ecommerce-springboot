@@ -1,4 +1,4 @@
-package model;
+package template.market.ecommerce.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

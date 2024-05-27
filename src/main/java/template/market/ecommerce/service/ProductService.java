@@ -1,6 +1,6 @@
-package service;
+package template.market.ecommerce.service;
 
-import model.Product;
+import template.market.ecommerce.model.Product;
 
 import java.util.List;
 

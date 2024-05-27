@@ -1,6 +1,6 @@
-package repository;
+package template.market.ecommerce.repository;
 
-import model.Product;
+import template.market.ecommerce.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

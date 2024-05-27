@@ -1,15 +1,15 @@
-package controller;
+package template.market.ecommerce.controller;
 
-import model.Product;
+import template.market.ecommerce.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.ProductService;
+import template.market.ecommerce.service.ProductService;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/products")
+@RequestMapping("/products")
 public class ProductController {
 
     @Autowired

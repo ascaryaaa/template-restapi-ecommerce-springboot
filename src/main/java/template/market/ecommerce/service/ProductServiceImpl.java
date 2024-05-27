@@ -1,9 +1,9 @@
-package service;
+package template.market.ecommerce.service;
 
-import model.Product;
+import template.market.ecommerce.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.ProductRepository;
+import template.market.ecommerce.repository.ProductRepository;
 
 import java.util.List;
 import java.util.Optional;
